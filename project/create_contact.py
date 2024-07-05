@@ -10,7 +10,6 @@ class NewContact(CTkToplevel):
         self.number = None
         super().__init__(parent)
         self.parent = parent
-        # تنظیمات اولیه
         self.parent.iconify()
         self.title("Create Contact")
         self.geometry('500x500')
